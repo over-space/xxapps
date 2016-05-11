@@ -2,555 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192e7705-50a6-4265-b35b-71ca7dab5a7a" name="Default" comment="将xxplus分模块， 新增xxbolg模块.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/controller/BaseController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/dao/BaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/dao/impl/BaseDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/entity/BaseEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/listener/EntityListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/services/BaseService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/services/impl/BaseServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/classes/com/xxbase/utils/BaseStringUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-blog/target/classes/com/xxblog/entity/BlogCategoryEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-blog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/auth/AuthenticationFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/auth/AuthenticationRealm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/auth/RetryLimitHashedCredentialsMatcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/auth/WildcardPermissionEx.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/AdminController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/CommonController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/ExcelController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/HRController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/MemberController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/controller/MenuController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/cron/AdminCronListener$SaveThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/cron/AdminCronListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/AdminDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/AuditDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/CompanyDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/IdentityDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/LoginLogDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/MemberDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/MemberTypeDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/MenuDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/PermissionSourceDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/RoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/SubMenuDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/AdminDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/AudtiDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/CompanyDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/IdentityDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/LoginLogDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/MemberDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/MemberTypeDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/MenuDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/PermissionSourceDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/RoleDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/dao/impl/SubMenuDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/AdminEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/AuditEntity$Action.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/AuditEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/CompanyEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/DepartmentEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/IdentityEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/LoginLogEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/MemberEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/MemberTypeEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/MenuEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/PermissionSourceEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/RoleEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/entity/SubMenuEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/enums/GenderEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/enums/LoginModeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/exception/InitSystemException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/exception/ServiceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/iterceptor/AuditLogInterceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/listener/EntityListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/listener/EntityPostLoadListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/listener/InitSysListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/logs/IAuditLog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/method/EncryptPropertyConfigurer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/method/MessageMethod.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/params/CommonAttributes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/params/EnumConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/params/Principal.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/params/Setting.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/params/XMLConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/AdminService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/AuditService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/CompanyService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/ExcelService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/IdentityService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/LoginLogService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/MemberService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/MemberTypeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/MenuService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/PermissionSourceService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/RoleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/SubMenuService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/AdminServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/AuditServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/CompanyServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/ExcelServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/IdentityServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/LoginLogServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/MemberServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/MemberTypeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/MenuServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/PermissionSourceServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/RoleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/services/impl/SubMenuServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/utils/CipherUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/utils/DateUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/utils/MessageUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/utils/SettingUtils$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/classes/com/xxplus/utils/SettingUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/about-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/about-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/about-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/about-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/about-img-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/banner-bg-about-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/banner-bg-about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/banner-bg-home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-1-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-2-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-3-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-4-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-5-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-6-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-7-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-8-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/gallery-item-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/home-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/menu-bg-gallery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/menu-bg-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/page-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/images/slider-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activation-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activemq-all-5.13.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-bpmn-converter-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-bpmn-layout-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-bpmn-model-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-engine-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-image-generator-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-process-validation-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/activiti-spring-5.18.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/antlr4-runtime-4.5.2-1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/asm-3.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/cglib-2.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/classmate-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/codegen-0.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-codec-1.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-dbcp-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-email-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-io-1.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-lang3-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-logging-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/commons-pool-1.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/druid-1.0.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/ecj-3.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/ehcache-core-2.6.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/fastjson-1.1.41.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/freemarker-2.3.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/groovy-all-1.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/guava-r09.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/guice-3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/guice-multibindings-3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/h2-1.3.167.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hamcrest-core-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-core-4.3.6.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-entitymanager-4.3.6.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/hibernate-validator-5.1.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jackson-annotations-2.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jackson-core-2.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jackson-databind-2.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jandex-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/javassist-3.18.1-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/javax.inject-1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/javax.mail-1.5.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jaxen-1.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-http-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-io-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-security-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-server-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-servlet-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jetty-util-9.2.2.v20140723.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jgraphx-1.10.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/joda-time-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/jsr305-1.3.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/logback-core-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/lucene-analyzers-common-5.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/lucene-core-5.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/lucene-queries-5.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/lucene-queryparser-5.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/lucene-sandbox-5.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/mockito-core-1.10.19.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/mybatis-3.2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/mysema-commons-lang-0.2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/mysql-connector-java-5.1.31.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/objenesis-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/poi-3.10-FINAL.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/poi-ooxml-3.10-FINAL.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/poi-ooxml-schemas-3.10-FINAL.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/querydsl-apt-3.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/querydsl-codegen-3.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/querydsl-core-3.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/querydsl-jpa-3.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/shiro-all-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/shiro-core-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/shiro-guice-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/sitemesh-2.4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/slf4j-api-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-context-support-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-jms-4.0.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-orm-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-test-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/stax-api-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/thumbnailator-0.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/xml-apis-1.0.b2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/xmlbeans-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/xx-base-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/xx-blog-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/lib/xx-plus-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xx_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xx_web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_r09.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_3_167.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_codegen_codegen_0_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_commons_mysema_commons_lang_0_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_querydsl_querydsl_apt_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_querydsl_querydsl_codegen_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_querydsl_querydsl_core_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_querydsl_querydsl_jpa_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_sitemesh_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_layout_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_3_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_2_v20140723.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tinyjee_jgraphx_jgraphx_1_10_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-apps.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/controller/BaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/dao/impl/BaseDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/entity/BaseEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/listener/EntityListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/services/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/services/impl/BaseServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/src/main/java/com/xxbase/utils/BaseStringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-base/xx-base.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-blog/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-blog/src/main/java/com/xxblog/entity/BlogCategoryEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-blog/xx-blog.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/auth/AuthenticationFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/auth/AuthenticationRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/auth/RetryLimitHashedCredentialsMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/auth/WildcardPermissionEx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/CommonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/ExcelController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/HRController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/MemberController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/controller/MenuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/cron/AdminCronListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/AdminDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/AuditDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/CompanyDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/IdentityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/LoginLogDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/MemberDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/MemberTypeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/MenuDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/PermissionSourceDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/RoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/SubMenuDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/AdminDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/AudtiDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/CompanyDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/IdentityDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/LoginLogDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/MemberDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/MemberTypeDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/MenuDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/PermissionSourceDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/RoleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/dao/impl/SubMenuDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/AdminEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/AuditEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/CompanyEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/DepartmentEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/IdentityEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/LoginLogEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/MemberEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/MemberTypeEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/MenuEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/PermissionSourceEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/RoleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/entity/SubMenuEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/enums/GenderEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/enums/LoginModeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/exception/InitSystemException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/exception/ServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/iterceptor/AuditLogInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/listener/EntityListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/listener/EntityPostLoadListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/listener/InitSysListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/logs/IAuditLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/method/EncryptPropertyConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/method/MessageMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/params/CommonAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/params/EnumConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/params/Principal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/params/Setting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/params/XMLConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/AuditService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/CompanyService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/ExcelService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/IdentityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/LoginLogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/MemberService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/MemberTypeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/MenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/PermissionSourceService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/SubMenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/AdminServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/AuditServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/CompanyServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/ExcelServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/IdentityServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/LoginLogServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/MemberServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/MemberTypeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/MenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/PermissionSourceServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/services/impl/SubMenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/utils/CipherUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/utils/DateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/utils/MessageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/src/main/java/com/xxplus/utils/SettingUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-plus/xx-plus.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/admin/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/common.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/setting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-activiti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-cron.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-db.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-jms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/resources/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/front/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/js/imagesloaded.3.1.8.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/js/jquery.masonry.3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/view/about.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/view/contact.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/view/gallery.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-blog/view/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/404/404.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/common/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/common/main.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/error/error.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/hr/action.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/hr/build.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/hr/build2.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/menu/build.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/views/xx-plus/view/menu/edit.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/common.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/setting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-activiti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-cron.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-db.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-jms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/classes/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/common.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/setting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-activiti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-cron.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-db.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-jms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/classes/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/target/xx-web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xx-web/xx-web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xx-apps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -714,16 +167,16 @@
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://C:/Users/admin/workspace/xx-apps/xx-web/src/main/resources/spring-db.xml&#10;spring-ac&#9;FILE&#9;file://C:/Users/admin/workspace/xx-apps/xx-web/src/main/resources/spring-activiti.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\workspace\xx-apps" />
       <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF\views\xx-plus\view" />
       <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF\views\xx-blog\view" />
       <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF\views\xx-blog" />
       <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main" />
-      <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\admin\workspace\xx-apps\xx-web\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8">
@@ -1250,12 +703,12 @@
       <updated>1462932736838</updated>
       <workItem from="1462932741611" duration="2783000" />
       <workItem from="1462942705951" duration="2491000" />
-      <workItem from="1462946106734" duration="148000" />
+      <workItem from="1462946106734" duration="583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5422000" />
+    <option name="totallyTimeSpent" value="5857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1279,10 +732,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1726,6 +1179,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
