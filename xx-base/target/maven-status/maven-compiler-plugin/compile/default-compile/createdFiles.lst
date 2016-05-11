@@ -1,0 +1,8 @@
+com\xxbase\controller\BaseController.class
+com\xxbase\services\impl\BaseServiceImpl.class
+com\xxbase\dao\BaseDao.class
+com\xxbase\entity\BaseEntity.class
+com\xxbase\services\BaseService.class
+com\xxbase\utils\BaseStringUtils.class
+com\xxbase\dao\impl\BaseDaoImpl.class
+com\xxbase\listener\EntityListener.class
